@@ -1,0 +1,630 @@
+<!DOCTYPE html>
+<html><head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="assets/219b9c0e-38cb-4718-baaa-996be799c71c.js"></script>
+
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<style>/* cyrillic-ext */
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("assets/bb025ea7-8c23-4cf4-89ab-68f3cdf187b5.woff2") format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("assets/fcb8f14c-b405-47f7-80ed-27f453191ba6.woff2") format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek-ext */
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("assets/7c4e76ff-826f-4121-98c6-d2cbd5f05f39.woff2") format('woff2');
+  unicode-range: U+1F00-1FFF;
+}
+/* greek */
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("assets/534afeea-65d9-4e43-aeab-2585361a2972.woff2") format('woff2');
+  unicode-range: U+0370-0377, U+037A-037F, U+0384-038A, U+038C, U+038E-03A1, U+03A3-03FF;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("assets/76ff56a6-ff72-44ca-94f4-bf1611ba613a.woff2") format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("assets/17b57d6d-2af5-4565-9322-07cc4d4d1b18.woff2") format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("assets/8cd76e9d-4535-480b-817d-302997d51ca9.woff2") format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("assets/bb025ea7-8c23-4cf4-89ab-68f3cdf187b5.woff2") format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("assets/fcb8f14c-b405-47f7-80ed-27f453191ba6.woff2") format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek-ext */
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("assets/7c4e76ff-826f-4121-98c6-d2cbd5f05f39.woff2") format('woff2');
+  unicode-range: U+1F00-1FFF;
+}
+/* greek */
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("assets/534afeea-65d9-4e43-aeab-2585361a2972.woff2") format('woff2');
+  unicode-range: U+0370-0377, U+037A-037F, U+0384-038A, U+038C, U+038E-03A1, U+03A3-03FF;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("assets/76ff56a6-ff72-44ca-94f4-bf1611ba613a.woff2") format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("assets/17b57d6d-2af5-4565-9322-07cc4d4d1b18.woff2") format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("assets/8cd76e9d-4535-480b-817d-302997d51ca9.woff2") format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url("assets/bb025ea7-8c23-4cf4-89ab-68f3cdf187b5.woff2") format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url("assets/fcb8f14c-b405-47f7-80ed-27f453191ba6.woff2") format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek-ext */
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url("assets/7c4e76ff-826f-4121-98c6-d2cbd5f05f39.woff2") format('woff2');
+  unicode-range: U+1F00-1FFF;
+}
+/* greek */
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url("assets/534afeea-65d9-4e43-aeab-2585361a2972.woff2") format('woff2');
+  unicode-range: U+0370-0377, U+037A-037F, U+0384-038A, U+038C, U+038E-03A1, U+03A3-03FF;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url("assets/76ff56a6-ff72-44ca-94f4-bf1611ba613a.woff2") format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url("assets/17b57d6d-2af5-4565-9322-07cc4d4d1b18.woff2") format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url("assets/8cd76e9d-4535-480b-817d-302997d51ca9.woff2") format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("assets/bb025ea7-8c23-4cf4-89ab-68f3cdf187b5.woff2") format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("assets/fcb8f14c-b405-47f7-80ed-27f453191ba6.woff2") format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek-ext */
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("assets/7c4e76ff-826f-4121-98c6-d2cbd5f05f39.woff2") format('woff2');
+  unicode-range: U+1F00-1FFF;
+}
+/* greek */
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("assets/534afeea-65d9-4e43-aeab-2585361a2972.woff2") format('woff2');
+  unicode-range: U+0370-0377, U+037A-037F, U+0384-038A, U+038C, U+038E-03A1, U+03A3-03FF;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("assets/76ff56a6-ff72-44ca-94f4-bf1611ba613a.woff2") format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("assets/17b57d6d-2af5-4565-9322-07cc4d4d1b18.woff2") format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("assets/8cd76e9d-4535-480b-817d-302997d51ca9.woff2") format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: url("assets/bb025ea7-8c23-4cf4-89ab-68f3cdf187b5.woff2") format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: url("assets/fcb8f14c-b405-47f7-80ed-27f453191ba6.woff2") format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek-ext */
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: url("assets/7c4e76ff-826f-4121-98c6-d2cbd5f05f39.woff2") format('woff2');
+  unicode-range: U+1F00-1FFF;
+}
+/* greek */
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: url("assets/534afeea-65d9-4e43-aeab-2585361a2972.woff2") format('woff2');
+  unicode-range: U+0370-0377, U+037A-037F, U+0384-038A, U+038C, U+038E-03A1, U+03A3-03FF;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: url("assets/76ff56a6-ff72-44ca-94f4-bf1611ba613a.woff2") format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: url("assets/17b57d6d-2af5-4565-9322-07cc4d4d1b18.woff2") format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: url("assets/8cd76e9d-4535-480b-817d-302997d51ca9.woff2") format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+</style>
+<style>
+  html { scroll-behavior: smooth; scroll-padding-top: 84px; }
+  @media (max-width: 720px) {
+    #hdr-nav { display: none !important; }
+  }
+  body { margin: 0; font-family: 'Inter', system-ui, sans-serif; background: #F4F5F7; color: #111827; -webkit-font-smoothing: antialiased; }
+  * { box-sizing: border-box; }
+</style>
+</helmet>
+
+<!-- ===== HEADER ===== -->
+<header style="position: fixed; top: 0; left: 0; right: 0; z-index: 50; background: #FFFFFF; border-bottom: 1px solid #E5E7EB;">
+  <div style="max-width: 1160px; margin: 0 auto; padding: 0 24px; height: 68px; display: flex; align-items: center; justify-content: space-between; gap: 16px;">
+    <a href="#top" style="display: flex; align-items: center; gap: 10px; text-decoration: none; color: #111827;">
+      <div style="width: 36px; height: 36px; background: #16A34A; border-radius: 10px; display: flex; align-items: center; justify-content: center; color: #FFFFFF; font-weight: 800; font-size: 18px;">K</div>
+      <span style="font-weight: 700; font-size: 17px;">Kudatos</span>
+      <span style="border: 1.5px solid #16A34A; color: #16A34A; font-size: 12px; font-weight: 700; letter-spacing: 0.04em; padding: 4px 12px; border-radius: 999px; background: #F0FDF4;">API</span>
+    </a>
+    <nav id="hdr-nav" style="display: flex; gap: 28px; flex-wrap: wrap;">
+      <a href="#consultas" style="text-decoration: none; color: #6B7280; font-size: 14.5px; font-weight: 500; transition: color 150ms;" style-hover="color: #16A34A;">Consultas</a>
+      <a href="#precios" style="text-decoration: none; color: #6B7280; font-size: 14.5px; font-weight: 500; transition: color 150ms;" style-hover="color: #16A34A;">Precios</a>
+      <a href="#contacto" style="text-decoration: none; color: #6B7280; font-size: 14.5px; font-weight: 500; transition: color 150ms;" style-hover="color: #16A34A;">Contacto</a>
+      <a href="#faq" style="text-decoration: none; color: #6B7280; font-size: 14.5px; font-weight: 500; transition: color 150ms;" style-hover="color: #16A34A;">FAQ</a>
+    </nav>
+    <div style="display: flex; gap: 10px; align-items: center;">
+      <a href="#precios" style="text-decoration: none; background: #16A34A; color: #FFFFFF; font-size: 14px; font-weight: 600; padding: 9px 16px; border-radius: 10px; transition: background 150ms;" style-hover="background: #15803D;">Obtener API key</a>
+    </div>
+  </div>
+</header>
+
+<!-- ===== HERO ===== -->
+<div style="height: 68px;"></div>
+<section id="top" style="background: #FFFFFF; border-bottom: 1px solid #E5E7EB;">
+  <div style="max-width: 1160px; margin: 0 auto; padding: clamp(48px, 8vw, 80px) 20px clamp(40px, 7vw, 64px); display: flex; flex-wrap: wrap; gap: clamp(28px, 5vw, 48px); align-items: center;">
+    <div style="flex: 1 1 480px; min-width: 300px;">
+      <h1 style="margin: 0 0 18px; font-size: clamp(34px, 4.5vw, 52px); line-height: 1.1; font-weight: 800; letter-spacing: -0.02em; text-wrap: balance;">Consulta cédulas y placas del Ecuador al instante</h1>
+      <p style="margin: 0 0 22px; font-size: 18px; line-height: 1.6; color: #6B7280; text-wrap: pretty;">Información de fuentes públicas oficiales del Ecuador. Resultados verificables en segundos, sin trámites ni filas.</p>
+      <div style="display: flex; gap: 10px; flex-wrap: wrap; margin-bottom: 28px;">
+        <span style="background: #F0FDF4; color: #15803D; font-size: 13px; font-weight: 600; padding: 6px 14px; border-radius: 999px; border: 1px solid #DCFCE7;">Fuentes confiables</span>
+        <span style="background: #F0FDF4; color: #15803D; font-size: 13px; font-weight: 600; padding: 6px 14px; border-radius: 999px; border: 1px solid #DCFCE7;">Datos protegidos</span>
+      </div>
+      <div style="display: flex; gap: 12px; flex-wrap: wrap;">
+        <a href="#precios" style="text-decoration: none; background: #16A34A; color: #FFFFFF; font-size: 16px; font-weight: 600; padding: 14px 26px; border-radius: 10px; transition: background 150ms, transform 150ms;" style-hover="background: #15803D; transform: translateY(-1px);">Obtener mi API key</a>
+        <a href="#precios" style="text-decoration: none; background: #FFFFFF; border: 1px solid #E5E7EB; color: #111827; font-size: 16px; font-weight: 600; padding: 14px 26px; border-radius: 10px; transition: background 150ms;" style-hover="background: #F4F5F7;">Ver precios</a>
+      </div>
+    </div>
+    <!-- Mockup card -->
+    <div style="flex: 1 1 360px; min-width: 300px; max-width: 440px;">
+      <div style="background: #FFFFFF; border: 1px solid #E5E7EB; border-radius: 16px; box-shadow: 0 8px 24px rgba(0,0,0,0.08); overflow: hidden;">
+        <div style="padding: 16px 20px; border-bottom: 1px solid #E5E7EB; display: flex; align-items: center; justify-content: space-between;">
+          <span style="font-weight: 700; font-size: 14.5px;">Resultado de consulta</span>
+          <span style="background: #F0FDF4; color: #15803D; font-size: 12px; font-weight: 600; padding: 4px 10px; border-radius: 999px;">Verificado</span>
+        </div>
+        <div style="padding: 20px; display: grid; gap: 14px;">
+          <div style="display: flex; justify-content: space-between; gap: 12px; padding-bottom: 12px; border-bottom: 1px solid #F4F5F7;">
+            <span style="color: #6B7280; font-size: 13.5px;">Nombre completo</span>
+            <span style="font-weight: 600; font-size: 13.5px; text-align: right;">María Fernanda Cevallos R.</span>
+          </div>
+          <div style="display: flex; justify-content: space-between; gap: 12px; padding-bottom: 12px; border-bottom: 1px solid #F4F5F7;">
+            <span style="color: #6B7280; font-size: 13.5px;">Cédula</span>
+            <span style="font-weight: 600; font-size: 13.5px;">171234****</span>
+          </div>
+          <div style="display: flex; justify-content: space-between; gap: 12px;">
+            <span style="color: #6B7280; font-size: 13.5px;">Nacionalidad</span>
+            <span style="font-weight: 600; font-size: 13.5px;">Ecuatoriana</span>
+          </div>
+        </div>
+        <div style="padding: 12px 20px; background: #F9FAFB; border-top: 1px solid #E5E7EB; display: flex; justify-content: space-between; align-items: center;">
+          <span style="color: #6B7280; font-size: 12px;">Fuente: confiable</span>
+          <span style="color: #16A34A; font-size: 12px; font-weight: 600;">0.8 s</span>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Stats bar -->
+  <div style="border-top: 1px solid #E5E7EB;">
+    <div style="max-width: 1160px; margin: 0 auto; padding: 20px 24px; display: flex; gap: 12px 48px; flex-wrap: wrap; justify-content: center;">
+      <span style="color: #6B7280; font-size: 14.5px;"><strong style="color: #111827;">+120,000</strong> consultas realizadas</span>
+      <span style="color: #6B7280; font-size: 14.5px;"><strong style="color: #111827;">+4,800</strong> usuarios verificados</span>
+      <span style="color: #6B7280; font-size: 14.5px;"><strong style="color: #111827;">100%</strong> fuentes verificables</span>
+    </div>
+  </div>
+</section>
+
+<!-- ===== TIPOS DE CONSULTA ===== -->
+<section id="consultas" style="padding: clamp(48px, 8vw, 80px) 20px;">
+  <div style="max-width: 1160px; margin: 0 auto;">
+    <h2 style="margin: 0 0 12px; font-size: clamp(26px, 5vw, 34px); font-weight: 700; text-align: center; letter-spacing: -0.01em;">Todo lo que puedes consultar</h2>
+    <p style="margin: 0 auto 48px; max-width: 560px; text-align: center; color: #6B7280; font-size: 17px; line-height: 1.6;">Dos tipos de consulta conectados a las fuentes públicas oficiales del Ecuador.</p>
+    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(min(280px, 100%), 1fr)); gap: 20px; max-width: 760px; margin: 0 auto;">
+      <sc-for list="{{ queryTypes }}" as="qt" hint-placeholder-count="2">
+        <div style="background: #FFFFFF; border: 1px solid #E5E7EB; border-radius: 16px; box-shadow: 0 1px 3px rgba(0,0,0,0.06); padding: 26px; display: flex; flex-direction: column; gap: 12px; transition: transform 180ms, box-shadow 180ms;" style-hover="transform: translateY(-3px); box-shadow: 0 8px 20px rgba(0,0,0,0.08);">
+          <div style="width: 44px; height: 44px; background: #F0FDF4; border-radius: 10px; display: flex; align-items: center; justify-content: center; font-size: 20px; color: #16A34A; font-weight: 700;">{{ qt.glyph }}</div>
+          <h3 style="margin: 0; font-size: 18px; font-weight: 700;">{{ qt.title }}</h3>
+          <p style="margin: 0; color: #6B7280; font-size: 14.5px; line-height: 1.6; flex: 1;">{{ qt.desc }}</p>
+          <a href="#precios" style="text-decoration: none; color: #16A34A; font-weight: 600; font-size: 14.5px; transition: color 150ms;" style-hover="color: #15803D;">Consultar →</a>
+        </div>
+      </sc-for>
+    </div>
+  </div>
+</section>
+
+<!-- ===== CÓMO FUNCIONA ===== -->
+<section style="background: #FFFFFF; border-top: 1px solid #E5E7EB; border-bottom: 1px solid #E5E7EB; padding: clamp(48px, 8vw, 80px) 20px;">
+  <div style="max-width: 1160px; margin: 0 auto;">
+    <h2 style="margin: 0 0 12px; font-size: clamp(26px, 5vw, 34px); font-weight: 700; text-align: center; letter-spacing: -0.01em;">Cómo funciona</h2>
+    <p style="margin: 0 auto 48px; max-width: 620px; text-align: center; color: #6B7280; font-size: 17px; line-height: 1.6; text-wrap: pretty;">Sin registro, sin tarjeta. Tu API key es tu cuenta: con ella pagas, consumes créditos y accedes tanto al portal web como a la API.</p>
+    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(min(260px, 100%), 1fr)); gap: 32px;">
+      <div style="display: flex; flex-direction: column; gap: 10px;">
+        <div style="font-size: 48px; font-weight: 800; color: #16A34A; line-height: 1;">1</div>
+        <h3 style="margin: 0; font-size: 18px; font-weight: 700;">Obtén tu API key</h3>
+        <p style="margin: 0; color: #6B7280; font-size: 15px; line-height: 1.6;">Genérala en un clic. Sin registro, sin tarjeta.</p>
+      </div>
+      <div style="display: flex; flex-direction: column; gap: 10px;">
+        <div style="font-size: 48px; font-weight: 800; color: #16A34A; line-height: 1;">2</div>
+        <h3 style="margin: 0; font-size: 18px; font-weight: 700;">Elige e ingresa el dato</h3>
+        <p style="margin: 0; color: #6B7280; font-size: 15px; line-height: 1.6;">Selecciona el tipo de consulta e ingresa la cédula o la placa.</p>
+      </div>
+      <div style="display: flex; flex-direction: column; gap: 10px;">
+        <div style="font-size: 48px; font-weight: 800; color: #16A34A; line-height: 1;">3</div>
+        <h3 style="margin: 0; font-size: 18px; font-weight: 700;">Recibe el resultado</h3>
+        <p style="margin: 0; color: #6B7280; font-size: 15px; line-height: 1.6;">Obtén la información al instante, directa desde las fuentes oficiales.</p>
+      </div>
+    </div>
+    <div style="margin: 48px auto 0; max-width: 640px; background: #F9FAFB; border: 1px solid #E5E7EB; border-radius: 16px; padding: 24px 28px; display: flex; flex-direction: column; gap: 12px;">
+      <div style="display: flex; align-items: center; gap: 10px; flex-wrap: wrap;">
+        <span style="color: #16A34A; font-weight: 700; font-size: 15px;">✓</span>
+        <span style="font-size: 12.5px; font-weight: 700; letter-spacing: 0.06em; color: #374151;">TU API KEY — GUÁRDALA, ES TU CUENTA</span>
+      </div>
+      <div style="display: flex; gap: 10px; flex-wrap: wrap; align-items: center;">
+        <code style="flex: 1 1 280px; font-family: 'SF Mono', 'Menlo', monospace; background: #FFFFFF; border: 1px dashed #16A34A; border-radius: 10px; padding: 12px 16px; color: #15803D; font-size: 14px; overflow-x: auto; white-space: nowrap;">kd_live_7f3a9b2e4c8d1f6a0e5b</code>
+        <a href="#precios" style="text-decoration: none; background: #16A34A; color: #FFFFFF; font-size: 14px; font-weight: 600; padding: 12px 20px; border-radius: 10px; white-space: nowrap; transition: background 150ms;" style-hover="background: #15803D;">Obtén tu API key ahora</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== PRECIOS ===== -->
+<section id="precios" style="padding: clamp(56px, 9vw, 96px) 20px;">
+  <div style="max-width: 1160px; margin: 0 auto;">
+    <h2 style="margin: 0 0 12px; font-size: clamp(28px, 6vw, 40px); font-weight: 800; text-align: center; letter-spacing: -0.02em;">Precios simples, sin suscripciones</h2>
+    <p style="margin: 0 auto 56px; max-width: 560px; text-align: center; color: #6B7280; font-size: 17px; line-height: 1.6;">Compra créditos y úsalos cuando quieras. Sin contratos ni pagos recurrentes.</p>
+    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(min(320px, 100%), 1fr)); gap: 24px; max-width: 920px; margin: 0 auto;">
+      <sc-for list="{{ plans }}" as="plan" hint-placeholder-count="6">
+        <div style="{{ plan.cardStyle }}">
+          <sc-if value="{{ plan.popular }}" hint-placeholder-val="{{ false }}">
+            <div style="position: absolute; top: -14px; left: 28px; background: #16A34A; color: #FFFFFF; font-size: 12px; font-weight: 700; letter-spacing: 0.06em; padding: 6px 16px; border-radius: 999px; white-space: nowrap;">★ MÁS POPULAR</div>
+          </sc-if>
+          <div style="font-size: 48px; font-weight: 800; letter-spacing: -0.03em; line-height: 1;">{{ plan.price }}</div>
+          <div style="display: flex; align-items: center; gap: 10px; flex-wrap: wrap;">
+            <span style="font-size: 18px; font-weight: 600; color: #374151;">{{ plan.consultas }} consultas</span>
+            <sc-if value="{{ plan.discount }}" hint-placeholder-val="{{ false }}">
+              <span style="background: #F0FDF4; color: #15803D; font-size: 12.5px; font-weight: 700; padding: 4px 10px; border-radius: 999px;">{{ plan.discount }}</span>
+            </sc-if>
+          </div>
+          <div style="align-self: flex-start; background: #F4F5F7; color: #6B7280; font-size: 14px; font-weight: 500; padding: 8px 16px; border-radius: 999px;">{{ plan.perQuery }} / consulta</div>
+          <div style="display: grid; gap: 10px; margin: 8px 0 4px;">
+            <sc-for list="{{ plan.features }}" as="feat" hint-placeholder-count="2">
+              <div style="display: flex; gap: 10px; align-items: flex-start; font-size: 14px; color: #374151;">
+                <span style="color: #16A34A; font-weight: 700; flex-shrink: 0;">✓</span>
+                <span>{{ feat }}</span>
+              </div>
+            </sc-for>
+          </div>
+          <a href="#contacto" style="{{ plan.ctaStyle }}" style-hover="{{ plan.ctaHover }}">Comprar →</a>
+        </div>
+      </sc-for>
+    </div>
+  </div>
+</section>
+
+<!-- ===== CONTACTO ===== -->
+<sc-if value="{{ showApi }}" hint-placeholder-val="{{ true }}">
+  <section id="contacto" style="padding: 0 20px clamp(48px, 8vw, 80px);">
+    <div style="max-width: 1160px; margin: 0 auto; background: #111827; border-radius: 16px; padding: clamp(24px, 5vw, 48px); display: flex; flex-wrap: wrap; gap: 32px; align-items: center; justify-content: space-between;">
+      <div style="flex: 1 1 380px; min-width: 280px;">
+        <h2 style="margin: 0 0 12px; font-size: clamp(24px, 5vw, 30px); font-weight: 700; color: #FFFFFF; letter-spacing: -0.01em;">¿Tienes dudas? Hablemos</h2>
+        <p style="margin: 0; color: #9CA3AF; font-size: 16px; line-height: 1.6;">Nuestro equipo responde en menos de 24 horas, de lunes a sábado.</p>
+      </div>
+      <div style="display: flex; gap: 16px; flex-wrap: wrap;">
+        <div style="background: #1F2937; border: 1px solid #374151; border-radius: 10px; padding: 16px 22px; display: flex; flex-direction: column; gap: 4px; min-width: 220px;">
+          <span style="color: #9CA3AF; font-size: 12.5px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.05em;">Correo</span>
+          <a href="mailto:soporte@kudatos.com" style="color: #86EFAC; font-size: 15px; font-weight: 600; text-decoration: none;">soporte@kudatos.com</a>
+        </div>
+        <div style="background: #1F2937; border: 1px solid #374151; border-radius: 10px; padding: 16px 22px; display: flex; flex-direction: column; gap: 4px; min-width: 220px;">
+          <span style="color: #9CA3AF; font-size: 12.5px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.05em;">WhatsApp</span>
+          <a href="#" style="color: #86EFAC; font-size: 15px; font-weight: 600; text-decoration: none;">+593 99 123 4567</a>
+        </div>
+      </div>
+      <a href="mailto:soporte@kudatos.com" style="text-decoration: none; background: #FFFFFF; color: #111827; font-size: 15px; font-weight: 600; padding: 14px 26px; border-radius: 10px; white-space: nowrap; transition: background 150ms;" style-hover="background: #F4F5F7;">Escríbenos →</a>
+    </div>
+  </section>
+</sc-if>
+
+<!-- ===== FAQ ===== -->
+<section id="faq" style="background: #FFFFFF; border-top: 1px solid #E5E7EB; padding: clamp(48px, 8vw, 80px) 20px;">
+  <div style="max-width: 760px; margin: 0 auto;">
+    <h2 style="margin: 0 0 40px; font-size: clamp(26px, 5vw, 34px); font-weight: 700; text-align: center; letter-spacing: -0.01em;">Preguntas frecuentes</h2>
+    <div style="display: grid; gap: 12px;">
+      <sc-for list="{{ faqs }}" as="faq" hint-placeholder-count="6">
+        <div style="background: #FFFFFF; border: 1px solid #E5E7EB; border-radius: 16px; box-shadow: 0 1px 3px rgba(0,0,0,0.06); overflow: hidden;">
+          <button onclick="{{ faq.toggle }}" style="width: 100%; background: none; border: none; padding: 18px 22px; display: flex; justify-content: space-between; align-items: center; gap: 16px; cursor: pointer; font-family: inherit; font-size: 15.5px; font-weight: 600; color: #111827; text-align: left; transition: background 150ms;" style-hover="background: #F9FAFB;">
+            <span>{{ faq.q }}</span>
+            <span style="{{ faq.chevronStyle }}">⌄</span>
+          </button>
+          <sc-if value="{{ faq.open }}" hint-placeholder-val="{{ false }}">
+            <div style="padding: 0 22px 18px; color: #6B7280; font-size: 14.5px; line-height: 1.7;">{{ faq.a }}</div>
+          </sc-if>
+        </div>
+      </sc-for>
+    </div>
+  </div>
+</section>
+
+<!-- ===== LEGAL ===== -->
+<section style="padding: clamp(40px, 7vw, 56px) 20px; border-top: 1px solid #E5E7EB;">
+  <div style="max-width: 760px; margin: 0 auto; text-align: center;">
+    <h3 style="margin: 0 0 14px; font-size: 18px; font-weight: 700; color: #374151;">Uso responsable de los datos</h3>
+    <p style="margin: 0 0 16px; color: #6B7280; font-size: 14px; line-height: 1.8; text-wrap: pretty;">Las consultas provienen exclusivamente de fuentes públicas y deben usarse con fines lícitos conforme a la Ley Orgánica de Protección de Datos Personales (LOPDP) del Ecuador: verificación de identidad propia, prevención de fraude y gestiones con consentimiento del titular. El uso indebido de la información es responsabilidad exclusiva del usuario.</p>
+    <a href="#" style="color: #16A34A; font-size: 14px; font-weight: 600; text-decoration: none;" style-hover="color: #15803D;">Eliminar mis datos / Mis derechos →</a>
+  </div>
+</section>
+
+<!-- ===== FOOTER ===== -->
+<footer style="background: #FFFFFF; border-top: 1px solid #E5E7EB; padding: 32px 24px;">
+  <div style="max-width: 1160px; margin: 0 auto; display: flex; flex-wrap: wrap; gap: 20px; align-items: center; justify-content: space-between;">
+    <div style="display: flex; align-items: center; gap: 10px;">
+      <div style="width: 28px; height: 28px; background: #16A34A; border-radius: 8px; display: flex; align-items: center; justify-content: center; color: #FFFFFF; font-weight: 800; font-size: 14px;">K</div>
+      <span style="font-weight: 700; font-size: 15px;">Kudatos</span>
+      <span style="border: 1.5px solid #16A34A; color: #16A34A; font-size: 11px; font-weight: 700; letter-spacing: 0.04em; padding: 3px 10px; border-radius: 999px; background: #F0FDF4;">API</span>
+    </div>
+    <nav style="display: flex; gap: 24px; flex-wrap: wrap;">
+      <a href="#" style="text-decoration: none; color: #6B7280; font-size: 13.5px;" style-hover="color: #16A34A;">Términos</a>
+      <a href="#" style="text-decoration: none; color: #6B7280; font-size: 13.5px;" style-hover="color: #16A34A;">Privacidad</a>
+      <a href="#" style="text-decoration: none; color: #6B7280; font-size: 13.5px;" style-hover="color: #16A34A;">Blog</a>
+      <a href="#" style="text-decoration: none; color: #6B7280; font-size: 13.5px;" style-hover="color: #16A34A;">API</a>
+      <a href="#contacto" style="text-decoration: none; color: #6B7280; font-size: 13.5px;" style-hover="color: #16A34A;">Contacto</a>
+    </nav>
+    <span style="color: #9CA3AF; font-size: 13px;">© 2026 Kudatos</span>
+  </div>
+</footer>
+</x-dc>
+<script type="text/x-dc" data-dc-script="" data-props="{
+  &quot;showApi&quot;: { &quot;editor&quot;: &quot;boolean&quot;, &quot;default&quot;: true, &quot;tsType&quot;: &quot;boolean&quot;, &quot;section&quot;: &quot;Secciones&quot; }
+}">
+class Component extends DCLogic {
+  state = { openFaq: 0 };
+
+  renderVals() {
+    const showApi = this.props.showApi ?? true;
+
+    const queryTypes = [
+      { glyph: '⬤', title: 'Persona', desc: 'Busca por cédula o por nombre (2 apellidos + 1 nombre). Devuelve nombre completo, cédula y nacionalidad.' },
+      { glyph: '◆', title: 'Vehículo', desc: 'Placa, marca, modelo, año, propietario y multas pendientes.' },
+    ];
+
+    const baseCard = 'position: relative; background: #FFFFFF; border: 1px solid #E5E7EB; border-radius: 16px; box-shadow: 0 1px 3px rgba(0,0,0,0.06); padding: 32px 28px; display: flex; flex-direction: column; gap: 14px; transition: transform 180ms, box-shadow 180ms;';
+    const popularCard = 'position: relative; background: #FFFFFF; border: 2px solid #16A34A; border-radius: 16px; box-shadow: 0 12px 32px rgba(22,163,74,0.15); padding: 32px 28px; display: flex; flex-direction: column; gap: 14px; transition: transform 180ms, box-shadow 180ms;';
+    const solidCta = 'text-decoration: none; text-align: center; background: #16A34A; color: #FFFFFF; font-size: 15px; font-weight: 600; padding: 13px 20px; border-radius: 10px; margin-top: 6px; transition: background 150ms;';
+    const outlineCta = 'text-decoration: none; text-align: center; background: #FFFFFF; border: 1px solid #16A34A; color: #16A34A; font-size: 15px; font-weight: 600; padding: 12px 20px; border-radius: 10px; margin-top: 6px; transition: background 150ms;';
+
+    const features = ['Créditos sin caducidad', 'Soporte prioritario'];
+    const planData = [
+      { price: '$1', consultas: '15', perQuery: '$0.067', discount: null, features },
+      { price: '$5', consultas: '75', perQuery: '$0.067', discount: null, features },
+      { price: '$10', consultas: '250', perQuery: '$0.04', discount: '-40%', features },
+      { price: '$20', consultas: '2,000', perQuery: '$0.01', discount: '-85%', popular: true, features },
+      { price: '$50', consultas: '5,500', perQuery: '$0.0091', discount: '-86%', features },
+      { price: '$80', consultas: '10,000', perQuery: '$0.008', discount: '-88%', features },
+    ];
+
+    const plans = planData.map(p => ({
+      ...p,
+      popular: !!p.popular,
+      cardStyle: p.popular ? popularCard : baseCard,
+      ctaStyle: p.popular ? solidCta : outlineCta,
+      ctaHover: p.popular ? 'background: #15803D;' : 'background: #F0FDF4;',
+    }));
+
+    const faqData = [
+      { q: '¿De dónde salen los datos?', a: 'Toda la información proviene de fuentes públicas confiables del Ecuador. No usamos bases de datos privadas ni información filtrada.' },
+      { q: '¿Los créditos caducan?', a: 'No. Los créditos que compras no tienen fecha de vencimiento; úsalos cuando los necesites.' },
+      { q: '¿Es legal consultar datos de terceros?', a: 'Las consultas acceden a información de carácter público. Su uso debe cumplir la LOPDP del Ecuador: fines lícitos como verificación de identidad, prevención de fraude o gestiones con consentimiento del titular.' },
+      { q: '¿Cómo pago?', a: 'Aceptamos tarjetas de crédito y débito, transferencias bancarias locales y billeteras digitales. Los precios están en dólares (USD).' },
+      { q: '¿Tienen API?', a: 'Sí. Ofrecemos una API REST con respuestas JSON, sin contratos, desde $0.033 por consulta y un rate limit de 30 req/min. La documentación está disponible al registrarte.' },
+      { q: '¿Qué pasa si una consulta no devuelve resultados?', a: 'Si la fuente oficial no responde o no existe información para el dato ingresado, el crédito se devuelve automáticamente a tu cuenta.' },
+    ];
+
+    const faqs = faqData.map((f, i) => ({
+      ...f,
+      open: this.state.openFaq === i,
+      chevronStyle: 'flex-shrink: 0; color: #6B7280; font-size: 18px; line-height: 1; transition: transform 200ms;' + (this.state.openFaq === i ? ' transform: rotate(180deg);' : ''),
+      toggle: () => this.setState(s => ({ openFaq: s.openFaq === i ? -1 : i })),
+    }));
+
+    return { showApi, queryTypes, plans, faqs };
+  }
+}
+</script>
+
+
+</body></html>

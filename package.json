@@ -1,0 +1,12 @@
+{
+  "name": "kudatos-landing",
+  "version": "1.0.0",
+  "description": "Landing page de Kudatos - consulta de cédulas y placas del Ecuador",
+  "private": true,
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
